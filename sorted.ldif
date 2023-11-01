@@ -1,0 +1,35 @@
+dn: uid=0000001,ou=People,dc=example,dc=com
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+description: not a cyborg
+cn: Sektor Flame
+sn: Flame
+uid: 0000001
+
+dn: uid=0000002,ou=People,dc=example,dc=com
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+description: a cyborg 
+cn: Cyrax Buzzsaw
+sn: Buzzsaw
+uid: 0000002
+
+dn: uid=jsmith1,ou=People,dc=example,dc=com
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+description: John Smith from Accounting.  John is the project manager of the building project, so contact him with any questions.
+cn: John Smith
+sn: Smith
+uid: jsmith1
+
+dn: uid=meme1,ou=People,dc=example,dc=com
+changetype: add
+objectClass: top
+objectClass: inetOrgPerson
+description: a meme
+cn: Meme Noname
+sn: Noname
+uid: meme1
