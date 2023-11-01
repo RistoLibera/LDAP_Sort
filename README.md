@@ -10,11 +10,11 @@
 - Open command prompt or Powershell prompt on the same folder
 - In command prompt run command below to generate an ascending sorted ldif file
 ```cmd
-$ Powershell.exe LDAP_Sort.ps1 -1 "sss" -2 "sss" -3 "sss"
+$ Powershell.exe ".\LDAP_Sort.ps1" -srcLDAPFile ".\example.ldif" -resultLDAPFile ".\sorted.ldif" -order "0"
 ```
 - In command prompt run command below to generate a descending sorted ldif file
 ```cmd
-$ Powershell.exe LDAP_Sort.ps1 -1 "sss" -2 "sss" -3 "sss"
+$ Powershell.exe ".\LDAP_Sort.ps1" -srcLDAPFile ".\example.ldif" -resultLDAPFile ".\sorted.ldif" -order "1"
 ```
 
 ## Notes
