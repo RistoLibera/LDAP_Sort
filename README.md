@@ -20,4 +20,6 @@ Powershell.exe ".\LDAP_Sort.ps1" -srcLDAPFile ".\example.ldif" -resultLDAPFile "
 ## Notes
 
 - Can only sort when uid is contained in dn attribute like this
-$ dn: uid=jsmith1,ou=People,dc=example,dc=com
+```cmd
+dn: uid=jsmith1,ou=People,dc=example,dc=com
+```
